@@ -74,7 +74,7 @@ h6{
 .section_head {
     width: 100%;
     
-    background: url(/img/header_bg.png) no-repeat 100% ;
+    background: url(img/header_bg.png) no-repeat 100% ;
     background-size: cover;
     
 }
@@ -479,12 +479,15 @@ h6{
     }
 
     .section4_block_left{
+
         width: 50%;
         box-sizing: border-box;
     }
 
     .section4_image{
+        
         width: 619px;
+        height: 405px;
         position: relative;
     }
 
@@ -496,12 +499,21 @@ h6{
 }
 
 .section4_image h3{
+    color: #fff;
     position: absolute;
-    bottom: 0;
-    left: 53px;
+    bottom: 30px;
+    left: 77px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
+.section4_info{
+   
+}
 
+.section4_block_right{
+   
+}
 
 
 
