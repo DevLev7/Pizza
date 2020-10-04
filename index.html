@@ -19,9 +19,9 @@
                         </div>
                         <div class="header_phone flex column">
                             <span>
-                                <a href="">8 800 000 00 00</a>
+                                <a data-fancybox href="#">8 800 000 00 00</a>
                             </span>
-                            <a href="" style="font-size: 14px;">Бесплатная консультация</a>
+                            <a data-fancybox href="#" style="font-size: 14px;">Бесплатная консультация</a>
                         </div>
                     </div>
                 </div>
@@ -96,6 +96,81 @@
                 <img class="section1_image" src="img/section1-img.png" alt="">
             </div>
         </div>
+        <div class="calculations">
+            <div class="wrapper">
+                <h1>Получите расчёт прибыли для вашего города</h1>
+                  <div class="calculator__inner">
+                <div class="calculations__content">
+                       <h2>Выручка:</h2>
+                    <div class="middle__check">
+                        <div class="middle__text">Среднее количество чеков в месяц</div>
+                        <div class="middle_value">4000</div>
+                    </div>
+                     <div class="middle__check">
+                         <div class="middle__text">Средняя ежемесячная выручка</div>
+                         <div class="proceeds__value">1 400 600 ₽</div>
+                     </div>
+                        <h3>Расходы:</h3>
+                     <div class="middle__check">
+                     <div class="middle__text">Средняя стоимость аренды </div>
+                     <div class="costs__value">400 000 ₽</div>
+                     </div>
+                     <div class="middle__check">
+                         <div class="middle__text">Средняя зарплата сотрудников</div>
+                         <div class="salary__value">45 000 ₽</div>
+                     </div>
+                     <div class="middle__check">
+                         <div class="middle__text">Закупка сырья</div>
+                         <div class="raw__value">1 400 600 ₽</div>
+                     </div>
+                     <div class="middle__check">
+                         <div class="middle__text">Прочие расходы</div>
+                         <div class="another__value">1 400 600 ₽</div>
+                     </div>
+                </div>
+                   <div class="payment__content">
+                     <div class="payment__format">
+                     <div class="format__text">Формат:</div>
+                     <p  class="format__court">
+                     <input  name="court" type="radio" > Фудкорт
+                     </p>
+                     <p  class="format__family"><input class="saas" name="court" type="radio" > Семейное кафе</p>
+                     </div>
+                    <div class="middle__check">
+                        <div class="middle__text">Средний чек</div>
+                        <span class="slider__value" id="rangeValue">350₽</span>
+                    </div>
+                     <input class="slider" type="range" step="20" min="200" max="500" onchange="document.getElementById('rangeValue').innerHTML = this.value + '₽';">
+                      <div class="middle__check">
+                        <div class="middle__text">Сколько месяцев вы работаете по франшизе</div>
+                        <span class="slider__data" id="rangeValue1">12 месяцев</span>
+                    </div>
+                     <input class="slider" type="range" step="1" min="1" max="24" onchange="document.getElementById('rangeValue1').innerHTML = this.value +' месяцев' ;">
+                     <div class="allTime">
+                         <div class="allTime__title">За это время в вашем кафе купят:</div>
+                         <div class="allTime_foods">
+                         <div class="allTime__pizza">Пиццы — 1 992 штуки </div>
+                         <div class="allTime__pizza">Кофе — 802 стакана</div>
+                         <div class="allTime__pizza">Вторых блюд — 321 штук</div>
+                         <div class="allTime__pizza">Салатов — 96 штук</div>
+                         <div class="allTime__pizza">Десертов — 64 штуки</div>
+                        </div>
+                        <div class="allTime__profit">Ваша чистая прибыль составит: 535 604 ₽ </div>
+                     </div>
+                </div><!--payment__content-->
+              </div>
+                  <div class="getBusiness">
+                     <div class="getBusiness__title">Получите бизнес-план для выхода на прибыль 535 604 ₽
+                     </div>
+                     <form id="form1" class="contact__form" action="">
+                     <input class="subscribe__name" type="text" name="name" placeholder="Ваше имя">
+                     <input class="subscribe__mobile" type="text" name="name" placeholder="Ваш телефон">
+                     <th><input class="subscribe__email" type="email" name="name" placeholder="Ваш e-mail">
+                     <button style="margin-left:20px ;" class="btn">Получить бизнес-план</button>
+                     </form>
+                 </div>
+            </div>
+        </div>
         <div class="section2">
             <div class="wrapper">
                 <h1>Получите модель пиццерии,<br> которая показала стремительный<br> рост и полюбилась тысячам гостей!</h1>
@@ -157,25 +232,36 @@
                         в любом регионе России</h1>
                 </div>
             </div>
+            <div class="carousel-container">
+    
+                <div id="carousel">
+                  <div class="carousel-feature">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="img/slider_img.png"></a>
+                   
+                  </div>
+                  <div class="carousel-feature">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="img/slider_img.png"></a>
+                    
+                  </div>
+                  <div class="carousel-feature">
+                    <a  href="#"><img class="carousel-image" alt="Image Caption" src="img/slider_img.png"></a>
+                    
+                  </div>
+                  <div class="carousel-feature">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="img/slider_img.png"></a>
+                  </div>
+                  <div class="carousel-feature">
+                    <a href="#"><img class="carousel-image" alt="Image Caption" src="img/slider_img.png"></a>
+                    
+                  </div>
+                </div>
+              
+                <div id="carousel-left"><img src="img/slider_right.svg" class="slider_bg" /></div>
+                <div id="carousel-right"><img src="img/slider_left.svg" class="slider_bg" /></div>
+              </div>
         <div class="section3">
 
-            <!-- slider-------------------------------------- -->
-            <div class="section_slider">
-                <div class="section_slider slider slick-initialized slick-slider slick-dotted">
-                    <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;"></button>
-                    <div class="slick-list draggable">
-                        <div class="slick-track" style="opacity: 1; width: 5876px; transform:translate3d(-2260px,0px,0px);">
-                            ::before
-                            <div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 452px;">
-                                <div class="section_slider_block"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-             <!-- slider-------------------------------------- -->
-            <div class="wrapper">
+            <div  class="wrapper">
             <h1>Франчайзи PIZZAWOOD<br>
                 выходят на плановые показатели <br>
                 быстрее, чем за 6 месяцев  
@@ -223,10 +309,10 @@
             <div class="section3_block2">
                 <div class="section3_form">
                     <h3>Оставьте заявку и получите Бизнес-план</h3>
-                    <form action="">
-                        <input type="text" placeholder="Ваше имя" name="name" >
-                        <input type="text" placeholder="Ваш телефон" name="phone"> 
-                        <input type="email" placeholder="Ваш email" name="email">
+                    <form  id="form2" novalidate="novalidate">
+                        <input class="input" type="text" placeholder="Ваше имя" name="name" >
+                        <input class="input" type="text" placeholder="Ваш телефон" name="phone"> 
+                        <input class="input" type="email" placeholder="Ваш email" name="email">
                         <button class="btn">Получить бизнес план</button>
 
                     </form>
@@ -329,6 +415,49 @@
             </div>
         </div>
          <!-- section 5 ----------------------------------->
+         <div class="section5">
+            <div class="wrapper">
+                <h1 class="section5_title">Поможем открыться за 2 месяца</h1>
+                <div class="section5_block">
+                <div class="section5_content">
+                <div class="flex column">
+                <div class="flex">
+                   <div class="first_img"></div>
+                    <div class="first_element">1-2 неделя</div>
+                    <div class="second_element">Подготовка документации и согласование проекта</div>
+                </div>
+                </div>
+                </div>
+                <div class="section5_content">
+                <div class="flex column">
+                <div class="flex">
+                   <div class="first_img"></div>
+                    <div class="first_element">3-4 неделя</div>
+                    <div class="second_element">Подготовка документации и согласование проекта</div>
+                </div>
+                </div>
+                </div>
+                <div class="section5_content">
+                <div class="flex column">
+                <div class="flex">
+                   <div class="first_img"></div>
+                    <div class="first_element">5-6 неделя</div>
+                    <div class="second_element">Подготовка документации и согласование проекта</div>
+                </div>
+                </div>
+                </div>
+                <div class="section5_content">
+                <div class="flex column">
+                <div class="flex">
+                    <div class="first_element">7-8 неделя</div>
+                    <div class="second_element">Подготовка документации и согласование проекта</div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <button type="submit" class="btn">Получить план открытия</button>
+            </div>
+        </div>
 
          <div class="section6">
              <div class="wrapper">
@@ -397,6 +526,41 @@
          </div>
     </div>
         <!-- section 7 ----------------------------------->
+        <div class="section7">
+            <div class="wrapper flex">
+                   <div class="section7_block">
+                    <h1>Доступ к мобильному
+                     приложению PIZZAWOOD</h1>
+                     <div class="section7_info">
+                         <h2>Без усилий получайте от 30% к выручке</h2>   <p>
+                         Больше трети гостей предпочитают заказывать пиццу и другие блюда онлайн.</p>Имея привлекательное приложение, вы получаете<br> эту часть клиентов себе.
+                     </div>
+ 
+                     <div class="section7_info">
+                         <h2>Опережайте конкурентов за счёт лучшего сервиса</h2>
+                         <p>
+                     В мобильном приложении гости могут знакомиться с ингредиентами, способами приготовления, составлять списки любимых блюд, в несколько кликов совершать повторные заказы и др.</p>Такой функционал выгодно выделит вас среди<br> большинства пиццерий в городе
+                     </div>
+                     <div class="section7_info">
+                           <h2>Превращайте покупателей в постоянных клиентов</h2>
+                             <p>Пользователи приложения первыми узнают о скидках, акциях, получают и тратят бонусы за заказы, мы дарим им промокоды и др.</p>Благодаря системе лояльности PIZZAWOOD, ваши<br> гости будут возвращаться снова и снова.
+                             <div class="btn_section7">
+                             <button class="btn2"><img src="img/section7_btn.png" alt=""></button>
+                             <button class="btn2"><img src="img/section7_btn2.png" alt=""></button>
+                             </div>
+                     </div>
+                </div>
+                 <div class="section_img">
+                     <div class="section7_img1">
+                     <img  src="img/section7_hand.png" alt="">
+                     </div>
+                     <div class="section7_img2">
+                     <img  src="img/section7_tomato.png" alt="">
+                     </div>
+                 </div>
+ 
+               </div>
+             </div>
         <div class="section8">
             <div class="wrapper flex space-between">
                 <div class="section8_block">
@@ -406,10 +570,10 @@
                 </div>
                 <div class="section8_form">
                     <h3>Оставьте заявку и получите Бизнес-план</h3>
-                    <form action="">
-                        <input type="text" placeholder="Ваше имя" name="name" >
-                        <input type="text" placeholder="Ваш телефон" name="phone"> 
-                        <input type="email" placeholder="Ваш email" name="email">
+                    <form id="form3" novalidate="novalidate">
+                        <input class="input" type="text" placeholder="Ваше имя" name="name" >
+                        <input  class="input" type="text" placeholder="Ваш телефон" name="phone"> 
+                        <input class="input" type="email" placeholder="Ваш email" name="email">
                         <button class="btn">Получить бизнес план</button>
 
                     </form>
@@ -423,9 +587,9 @@
                     <div style="width: 40%;" class="footer_block">
                         <span  class="flex">
                             <p>© «Pizzawood», 2020</p>
-                            <a  href="#">Политика конфиденциальности</a>
+                            <a data-fancybox  href="#">Политика конфиденциальности</a>
                         </span>
-                        <a  href="#">Франчайзинг 5 - упаковка и продвижение франшиз</a>
+                        <a data-fancybox  href="#">Франчайзинг 5 - упаковка и продвижение франшиз</a>
                     </div>
 
                     <div class="footer_block">
@@ -437,20 +601,45 @@
                     </div> 
 
                     <div style="width: 15%;" class="footer_block">
-                        <a href="#">Cкачать приложение
+                        <a data-fancybox href="#">Cкачать приложение
                             PizzaWood</a>
                     </div> 
 
                     <div class="footer_block" style="width: 18%; ">
                         <div class="header_phone flex column" style="text-align: right;" >
                             <span>
-                                <a style="font-weight: 600; font-size: 22px;" href="">8 800 000 00 00</a>
+                                <a data-fancybox style="font-weight: 600; font-size: 22px;" href="">8 800 000 00 00</a>
                             </span>
-                            <a href="" style="font-size: 14px;">Бесплатная консультация</a>
+                            <a data-fancybox href="#" style="font-size: 14px;">Бесплатная консультация</a>
                         </div>
                     </div> 
                  </div>
              </div>
          </div>
+         <script src="js/jquery.js"></script>
+         <script src="js/slick.min.js"></script>
+         <script src="js/app.js"></script>
+         <script src="js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.featureCarousel.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
 </body>
 </html>
