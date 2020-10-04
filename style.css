@@ -74,7 +74,7 @@ h6{
 .section_head {
     width: 100%;
     
-    background: url(img/header_bg.png) no-repeat 100% ;
+    background: url(img/header_bg.png) no-repeat 60% ;
     background-size: cover;
     
 }
@@ -129,6 +129,7 @@ h6{
     font-weight: 600;
     color: #fff;
     padding-bottom: 36px;
+    line-height: 1.1;
 }
 
 .heading_block h3 {
@@ -167,8 +168,16 @@ h6{
     font-weight: bold;
     color: #000000;
     background:#F8CE4C;
-    -webkit-box-shadow: 0px 7px 0px -1px #C7841F;
-    box-shadow: 0px 7px 0px -1px #C7841F;
+    -webkit-box-shadow: inset 0px -6px 0px -1px #C7841F; 
+   
+    box-shadow: inset 0px -6px 0px -1px #C7841F;
+}
+
+
+.btn, 
+.btn:active, 
+.btn:focus {
+    outline: none;
 }
 
 .heading_inform_section{
@@ -180,18 +189,21 @@ h6{
 
 /*section1=================================================*/
 .section1{
+    overflow: hidden;
     width: 100%;
     background-color: #F4F4F4;
     padding: 100px 0 80px 0;
 }
 
 .section1_block{
+  
     width: 60%;
     position: relative;
     z-index: 100;
 }
 
 .section1_block h1{
+    line-height: 1.1;
     font-family: 'Jost', sans-serif;
     font-size: 42px;
     font-weight: 600;
@@ -200,7 +212,7 @@ h6{
 }
 
 .section1_block h3{
-    padding-bottom: 52px;
+    padding-bottom: 76px;
     font-size: 18px;
     font-weight: 500;
     color: #000000;
@@ -252,6 +264,7 @@ h6{
     font-size: 42px;
     line-height: 1.2;
     padding-bottom: 60px;
+    line-height: 1.1;
 }
 
 .section2_info {
@@ -365,7 +378,7 @@ h6{
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-size: 42px;
-    line-height: 1.2;
+    line-height: 1.1;
    
 }
 
@@ -429,11 +442,11 @@ h6{
     border-radius: 4px;
 }
 
-.section3_form form{
+ form{
     padding: 40px 0 30px 0;
 }
 
-.section3_form input {
+ input {
     display: block;
     width: 100%;
     font-size: 16px;
@@ -445,6 +458,16 @@ h6{
     
     -webkit-box-sizing: border-box;
     box-sizing: border-box;}
+
+    input:focus {
+        border: 2px solid  #F8CE4C; 
+       }
+
+       input, 
+input:active, 
+input:focus {
+    outline: none;
+}
 
     .section3_form .btn {
         margin-top: 20px;
@@ -471,16 +494,17 @@ h6{
         color: #000000;
         font-family: 'Jost', sans-serif;
         font-size: 42px;
-        line-height: 1.2;
+        line-height: 1.1;
     }   
     
     .section4_block{
+        border-radius: 8px;
         padding-top: 60px;
     }
 
     .section4_block_left{
-
-        width: 50%;
+        
+        
         box-sizing: border-box;
     }
 
@@ -505,29 +529,263 @@ h6{
     left: 77px;
     font-size: 32px;
     font-weight: 600;
+    
 }
 
 .section4_info{
-   
+background-color: #fff;
+width: 465px;
+height: auto;
+padding: 40px 77px 49px 77px;
+border-bottom-left-radius: 8px;
+box-shadow: 0px 4px 20px rgba(104, 104, 104, 0.1);
+}
+
+.section4_info p{
+    padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400px;
 }
 
 .section4_block_right{
-   
+   width: 100%;
+   padding: 70px 68px;
+   background-color: #252525;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   margin-left: -2px;
+}
+
+.section4_block_right h3{
+    padding-bottom: 43px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+ .indicator{
+     padding-bottom: 42px;
+ }
+
+ .indicator h5{
+     color:  #DFD8C0;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .indicator h6{
+    color:  #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section4_block_right .btn{
+    width: 100%;
 }
 
 
+/*section5=================================================*/
+/*section6=================================================*/
+
+.section6{
+ padding: 110px 0 100px 0;
+ background: #FAFAFB;
+}
+
+.section6 h1{
+    color: #000000;
+        font-family: 'Jost', sans-serif;
+        font-size: 42px;
+        line-height: 1.2;
+        padding-bottom: 50px;
+   }
+
+   .col-md-2 {
+    padding: 20px 0;
+    box-sizing: border-box;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.section6_image{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.section6_image img {
+display: block;
+position: absolute;
+max-width: 100%;
+max-height: 100%;
+}
+
+.section6_image h3{
+color: #fff;
+position: absolute;
+bottom: 15px;
+left: 30px;
+font-size: 32px;
+font-weight: 600;
+}
+
+.section6_info{
+
+width: 100%;
 
 
+}
+
+.section6_info h5{
+    padding-top: 38px;
+    font-size: 20px;
+    font-weight: 600px;
+    }
+
+.section6_info p{
+padding-top: 20px;
+width: 80%;
+font-size: 18px;
+font-weight: 400px;
+}
+
+.col-md-2 h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.col-md-2 h6{
+    padding-bottom: 49px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+.col-md-2 .btn{
+    width: 80%;
+}
 
 
+/*section7=================================================*/
+
+/*section8=================================================*/
+.section8{
+    padding: 100px 0;
+   
+    width: 100%;
+    
+    background: url(img/section8_bg.png) no-repeat ;
+    background-size: cover;
+    
+}
 
 
+.section8_form {
+    width: 316px;
+    height: auto;
+    right: 0;
+    background-color: #fff;
+    
+    padding: 60px 45px;
+    border-radius: 4px;
+}
 
+.section8_block{
+    padding-top: 100px;
+    width: 55%;
+}
 
+.section8_block h1{
+    background-color:  #F8CE4C;
+    border: 6px solid  #F8CE4C;
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    line-height: 1.2;
+}
 
+.first{
+font-size: 54px;
+margin-bottom: 25px;
+position: relative;
+z-index: 100;
 
+    -moz-transform: rotate(-8.71deg);
+	-webkit-transform: rotate(-8.71deg);
+	-o-transform: rotate(-8.71deg);
+	-ms-transform: rotate(-8.71deg);
+	transform: rotate(-8.71deg);
+}
 
+.second{
+    margin-bottom: 20px;
+    font-size: 42px;
+    position: relative;
+    
+}
 
+.third{
+    margin-left: 40px;
+    width: 80%;
+    font-size: 54px;
+
+    -moz-transform: rotate(3.79deg);
+	-webkit-transform: rotate(3.79deg);
+	-o-transform: rotate(3.79deg);
+	-ms-transform: rotate(3.79deg);
+    transform: rotate(3.79deg);
+}
+
+.section8_form h6 {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.section8_form .btn {
+    width: 100%;
+}
+
+.footer{
+    background-color: #1C1C1C;
+    padding: 30px 0;
+}
+
+.footer_block p{
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #F8CE4C;
+    margin: 0;
+}
+
+.footer_block a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header_phone span{
+    font-weight: 600;
+}
+
+.btn2{
+    cursor: pointer;
+    border: none;
+    background:#1C1C1C;
+    
+    }
+    
+    .btn2,
+    btn2:active,
+    btn2:focus {
+    outline: none;
+    }
 
 
 
